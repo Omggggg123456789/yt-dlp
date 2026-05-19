@@ -560,6 +560,8 @@ Tip: Use `CTRL`+`F` (or `Command`+`F`)  to search by keywords
     -N, --concurrent-fragments N    Number of fragments of a dash/hlsnative
                                     video that should be downloaded concurrently
                                     (default is 1)
+    --concurrent-downloads N        Number of videos from a playlist that should
+                                    be downloaded concurrently (default is 1)
     -r, --limit-rate RATE           Maximum download rate in bytes per second,
                                     e.g. 50K or 4.2M
     --throttled-rate RATE           Minimum download rate in bytes per second
